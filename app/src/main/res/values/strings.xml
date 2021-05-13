@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Shyam Sena</string>
+    <string name="login_phone_txt">श्री श्याम सुंदर की दुनिया में प्रवेश करने हेतु अपना नंबर दर्ज करें </string>
+    <string name="welcome_marquee">श्री श्याम सुंदर की दुनिया में आपका स्वागत है </string>
+    <string name="todays_darsh">🙏 श्री खाटू श्याम के आज के दर्शन</string>
+    <string name="name_shandna">✍️श्री श्याम नाम शधाना</string>
+    <string name="textview_one">रूठी थी किस्मत मेरी भी अब मेहरबान हो गयी…।</string>
+    <string name="textview_two">“श्याम” के नाम से ही…. अब मेरी पहचान हो गयी ।।</string>
+    <string name="lorem">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting,</string>
+    <string name="jai_shree_shyam">🚩जय श्री श्याम</string>
+    <string name="saware_seth_ki_jai">🚩सांवरे सेठ की जय</string>
+</resources>

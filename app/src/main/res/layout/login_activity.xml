@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:background="@color/purple_200">
+
+
+    <VideoView
+        android:id="@+id/simpleVideoView"
+        android:layout_width="match_parent"
+        android:layout_height="200dp" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/simpleVideoView"
+        android:text="@string/login_phone_txt"
+        android:textSize="25dp"
+        android:textColor="@color/white"
+        android:layout_marginTop="15dp"
+        android:textAlignment="center"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:id="@+id/textview_heading"
+        android:fontFamily="@font/seg_ui_semibold"
+        android:gravity="center_horizontal" />
+
+    <EditText
+        android:textColorHint="@color/colorPlaceholder"
+        android:drawableStart="@drawable/baseline_phone_white_24dp"
+        android:drawableTint="@color/colorTextBlack"
+        android:hint="Phone number"
+        android:textColor="@color/colorTextBlack"
+        android:paddingLeft="26dp"
+        android:layout_below="@id/textview_heading"
+        android:layout_marginTop="10dp"
+        android:paddingRight="26dp"
+        android:inputType="number"
+        android:fontFamily="@font/seg_ui_semibold"
+        android:background="@drawable/edit_text_background"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:id="@+id/phone_number_etxt"
+        android:drawablePadding="15dp"
+        android:drawableLeft="@drawable/baseline_phone_white_24dp" />
+
+    <EditText
+        android:textColorHint="@color/colorPlaceholder"
+        android:drawableStart="@drawable/baseline_verified_user_white_24dp"
+        android:drawableTint="@color/colorTextBlack"
+        android:hint="Name"
+        android:textColor="@color/colorTextBlack"
+        android:layout_below="@id/phone_number_etxt"
+        android:layout_marginTop="10dp"
+        android:inputType="textPersonName"
+        android:fontFamily="@font/seg_ui_semibold"
+        android:background="@drawable/edit_text_background"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:paddingStart="26dp"
+        android:layout_marginLeft="30dp"
+        android:id="@+id/name_etxt"
+        android:drawablePadding="15dp"
+        android:layout_marginRight="30dp"
+        android:drawableLeft="@drawable/baseline_phone_white_24dp"
+        android:paddingLeft="26dp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="25dp"
+        android:background="@drawable/round_bg"
+        android:text="LOGIN"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        android:shadowColor="@color/black"
+        android:shadowDx="10"
+        android:shadowDy="10"
+        android:shadowRadius="10"
+        android:layout_below="@id/name_etxt"
+        android:textStyle="bold"/>
+
+    <ImageView
+        android:id="@+id/gif1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnLogin"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="30dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/flower_login"/>
+
+
+</RelativeLayout>

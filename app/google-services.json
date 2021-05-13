@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "217373438707",
+    "project_id": "shyam-sena-app",
+    "storage_bucket": "shyam-sena-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:217373438707:android:2d8b6ab4b27695ec8cfd86",
+        "android_client_info": {
+          "package_name": "com.yoursuperidea.shyamsena"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "217373438707-ub8ol9jqstiopgtkmt28hpblfvitfgug.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAwyVJnLHubhnha_wicjp229zvgzonZhEQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "217373438707-ub8ol9jqstiopgtkmt28hpblfvitfgug.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
